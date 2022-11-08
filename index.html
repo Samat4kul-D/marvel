@@ -5,9 +5,30 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<link rel="stylesheet" href="./assets/style/style.css">
+	<link rel="stylesheet" href="./assets/style/media.css">
 </head>
 <body>
+	<header class="header" id="header">
+		<div class="container">
+			<a href="#" class="header__logo">Marvel</a>
+			<nav class="header__nav">
+				<a href="#" class="header__link">About</a>
+				<a href="#" class="header__link">Films</a>
+				<a href="#" class="header__link">Contacts</a>
+			</nav>
+			<div class="burger">
+				<input type="checkbox" id="burger" hidden>
+				<label class="burger__btn" for="burger"></label>
+				<nav class="burger__nav">
+					<a href="#" class="burger__link">About</a>
+					<a href="#" class="burger__link">Films</a>
+					<a href="#" class="burger__link">Contacts</a>
+				</nav>
+			</div>
+		</div>
+	</header>
 	<section class="hero" id="hero">
 		<h1 class="hero__title">Marvel</h1>
 		<h2 class="hero__subtitle">Soon</h2>
@@ -64,5 +85,33 @@
 			</div>
 		</div>
 	</section>
+	<footer class="footer" id="footer">
+		<div class="container grid grid__col-3">
+			<nav class="footer__nav">
+				<h4 class="footer__title">About</h4>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+			</nav>
+			<nav class="footer__nav">
+				<h4 class="footer__title">Contacts</h4>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+			</nav>
+			<nav class="footer__nav">
+				<h4 class="footer__title">Films</h4>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+				<a href="#" class="footer__link">Link Lorem, ipsum dolor.</a>
+			</nav>
+			<nav class="footer__nav">
+				<h4 class="footer__title">Social</h4>
+				<a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i> Instagram</a>
+				<a href="tel:+996554054057" class="footer__link"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+				<a href="#" class="footer__link"><i class="fa-brands fa-facebook"></i> Facebook</a>
+			</nav>
+		</div>
+	</footer>
 </body>
 </html>
